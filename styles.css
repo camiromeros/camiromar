@@ -1,0 +1,85 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    color: #333;
+}
+
+img {
+    border-radius: 10px;
+}
+
+
+ul {
+    list-style-type: square;
+}
+
+
+div {
+    padding: 10px;
+}
+
+
+header {
+    background: #eee;
+    padding: 10px;
+}
+
+
+nav a:hover {
+    color: hotpink;
+}
+
+
+#contacto-box {
+    background: #ffe6ef;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+    border: 2px solid hotpink;
+    padding: 8px;
+    border-radius: 5px;
+	
+}
+
+.mySwiper,
+.mySwiper .swiper-wrapper,
+.mySwiper .swiper-slide {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+
+
+.swiper-slide {
+    flex-shrink: 0 !important;
+}
+
+
+.w3-padding-32 > * {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.video-container {
+  width: 50%;
+  margin-left: auto;   
+}
+
+.video-container video {
+  width: 100%;
+  border-radius: 10px;
+}
+

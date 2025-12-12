@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Portafolio | Camila Romero</title>
+	<link  rel= "icono"  href= "img/favicon.ico"  type= "imagen/x-icon" >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+
+
+    <style>
+        body,h1,h2,h3,h4,h5,h6 {
+            font-family: "Montserrat", sans-serif;
+        }
+
+       
+        .bgimg {
+            background-position: center;
+            background-size: cover;
+            background-image: url("img/portadas.jpg");
+            min-height: 100%;
+        }
+
+      
+        .navbar {
+            width: 100%;
+            background: white;  /* ← ahora fondo blanco */
+            padding: 16px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            text-align: center;
+            border-bottom: 1px solid #ddd; /* línea ligera */
+        }
+
+        .navbar a {
+            color: #111;
+            padding: 12px 18px;
+            font-size: 18px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            color: deeppink;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- IMAGEN LATERAL IZQUIERDA -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%; left:0;">
+    <div class="bgimg"></div>
+</nav>
+
+<!-- NAV SUPERIOR -->
+<div class="navbar">
+    <a href="index.html">Inicio</a>
+    <a href="acerca.html">Portafolio</a>
+    <a href="contacto.html">Contacto</a>
+</div>
+
+
+<div class="w3-main w3-padding-large" style="margin-left:40%; padding-top:120px; background:white;">
+
+    
+   <header class="w3-container w3-center" style="padding:40px 16px; background:white;">
+
+        <h1 class="w3-jumbo" style="color:deeppink;"><b>Camila Romero</b></h1>
+        <p>Hola! Soy estudiante de Diseño Gráfico</p>
+
+        <img src="img/portadas.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:100%;margin:auto;">
+        <img src="img/portadas.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000">
+
+        <a href="cv.pdf" download class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+            <i class="fa fa-download"></i> CV
+        </a>
+    </header>
+
+    
+    <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+        <h2>Acerca de mí</h2>
+        <hr class="w3-opacity">
+
+        <p style="font-size:16px; line-height:1.6;">
+            Hola, <b><i style="color:#ff7b00;">¡Soy Cami!</i></b><br><br>
+            Soy estudiante de <b>Diseño y Comunicación Gráfica en la UAM</b> y una apasionada del 
+            <b style="color:#ff008c;">color</b>, las ideas creativas y todo lo que pueda transformarse en una experiencia visual.
+            Me encanta <i>imaginar, diseñar y darle vida a conceptos</i> que conecten con las personas.
+            <br><br>
+            También soy emprendedora y creadora de <b style="color:#ff7b00;">Bahía Brand</b>,
+            mi marca de productos personalizados donde combino <b><i>creatividad</i></b>, diseño y estilo propio.
+            <br><br>
+            <span style="color:#ff008c;"><i>(sí, incluso las desveladas)</i></span>.
+            <br><br>
+            Me gusta trabajar con buena vibra y estar en constante movimiento creativo. 
+            Siempre busco proyectos que me <i>reten, inspiren</i> y me permitan crecer.
+            <br><br>
+            <b style="color:#ff008c;">Si tiene color</b>,
+            <b style="color:#ff7b00;">historia</b> o un buen concepto… <i>ahí estoy yo.</i>
+        </p>
+    </div>
+	
+	
+	<div class="w3-row w3-center w3-padding-16 w3-section" style="background-color:#f8c9d4; border-radius:10px;">
+    <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">50+</span><br>
+        Proyectos Hechos
+    </div>
+    <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">30+</span><br>
+        Clientes Felices
+    </div>
+    <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">5 años</span><br>
+        Emprendiendo
+    </div>
+    <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">3 años</span><br>
+        Universidad
+    </div>
+</div>
+
+</div>
+	
+<div class="video-container">
+  <video controls>
+    <source src="img/video.mp4" type="video/mp4">
+  </video>
+</div>
+	
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-left:40%;">
+	
+	<a href="https://www.instagram.com/_bahia_brand_?igsh=OGlrNmIxY3g1c3Bm" target="_blank">
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+</a>
+	
+   <a href="https://www.facebook.com/share/1D1dKU47xP/?mibextid=wwXIfr" target="_blank">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+</a>
+	
+    <p class="w3-medium">Página Web y Portafolio • Camila Romero</p>
+</footer>
+
+</body>
+</html>
+
